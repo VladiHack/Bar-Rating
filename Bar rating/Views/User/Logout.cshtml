@@ -1,23 +1,132 @@
-﻿@model Bar_rating.Models.LoginEntity
-@{
-    ViewData["Title"] = "Logout";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+            background-size: cover;
+            background-position: center;
+            color: #000; /* Change all text color to black */
+            text-shadow: none; /* Remove text shadow */
+            padding-top: 5rem; /* Space for the fixed navbar */
+        }
 
-<h1>Logout</h1>
+        .navbar {
+            background-color: transparent;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
 
-<h4><span style="font-style: italic;">User</span></h4>
-<hr />
-<div>
-    <span style="font-style: italic;">Успешно излязохте от акаунта си!</span>
-</div>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #000; /* Change navbar text color to black */
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
 
-<div>
-    <a asp-controller="Home" asp-action="Index">Back to Home menu</a>
-</div>
+        .navbar-nav .nav-link {
+            color: #000; /* Change nav-link text color to black */
+            font-size: 1.1rem;
+            margin-right: 1.5rem;
+            transition: color 0.3s ease;
+        }
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+            .navbar-nav .nav-link:hover {
+                color: #007bff; /* Optional: Change color on hover */
+            }
+
+        .container {
+            max-width: 800px; /* Adjusted container width */
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%; /* Full width of its container */
+            max-width: 800px; /* Adjusted card width */
+            margin: 0 auto; /* Center the card horizontally */
+        }
+
+        .card-body {
+            padding: 2rem;
+            color: #000; /* Ensure card text color is black */
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+            color: #000; /* Change button text color to black */
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+                border-color: #545b62;
+            }
+
+        .text-muted {
+            color: #6c757d !important; /* Optional: Keep muted text color if needed */
+        }
+
+        .alert {
+            margin-top: 1rem;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-color: #ddd;
+            color: #000; /* Ensure alert text color is black */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="navbar-nav ml-auto">
+            @if (ViewBag.role == "Empty")
+            {
+                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Login">Log in</a>
+                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Create">Create an account</a>
+            }
+            @if (ViewBag.role == "Admin" || ViewBag.role == "User")
+            {
+                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Logout">Log out</a>
+            }
+        </div>
+    </nav>
+
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="display-4">Logout</h1>
+                        <h4 class="text-muted"><span style="font-style: italic;">User</span></h4>
+                        <hr />
+                        <div>
+                            <span style="font-style: italic;">Успешно излязохте от акаунта си!</span>
+                        </div>
+                        <div class="mt-4">
+                            <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to Home menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
     }
-}
-
+</body>
+</html>

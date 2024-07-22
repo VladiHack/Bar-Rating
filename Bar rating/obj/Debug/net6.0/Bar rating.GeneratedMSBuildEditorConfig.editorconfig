@@ -9,107 +9,107 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bar_rating
 build_property.RootNamespace = Bar_rating
-build_property.ProjectDir = C:\Users\Vladimir Boychev\Desktop\IT Kariera практика\Bar rating\
+build_property.ProjectDir = C:\Users\Vladimir Boychev\Desktop\Bar rating\Bar-Rating\Bar rating\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Vladimir Boychev\Desktop\IT Kariera практика\Bar rating
+build_property.MSBuildProjectDirectory = C:\Users\Vladimir Boychev\Desktop\Bar rating\Bar-Rating\Bar rating
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Bar/Create.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Bar/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Bar/Delete.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Bar/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Bar/Details.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Bar/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Bar/Edit.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Bar/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Bar/Index.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Bar/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Home/Index.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Home/Privacy.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Review/Create.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Review/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Review/Delete.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Review/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Review/Details.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Review/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Review/Edit.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Review/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Review/Index.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Review/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Shared/Error.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/User/Create.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/User/Delete.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/User/Details.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/User/Edit.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/User/Index.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/User/Login.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/User/Logout.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/User/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/_ViewImports.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/_ViewStart.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir Boychev/Desktop/IT Kariera практика/Bar rating/Views/Shared/_Layout.cshtml]
+[C:/Users/Vladimir Boychev/Desktop/Bar rating/Bar-Rating/Bar rating/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nvw9wirj1m

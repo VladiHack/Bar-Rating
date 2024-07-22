@@ -12,11 +12,17 @@
         body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f8f9fa;
+            margin-top: 0; /* Removed top margin to eliminate space */
         }
 
         .navbar {
             background-color: #343a40;
             padding: 1rem 2rem;
+            position: fixed; /* Fixed position for the navbar */
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1030; /* Ensure navbar is above other content */
         }
 
         .navbar-brand {
@@ -29,6 +35,7 @@
             color: #fff;
             font-size: 1.1rem;
             margin-right: 1.5rem;
+            transition: color 0.3s ease;
         }
 
             .navbar-nav .nav-link:hover {
@@ -37,6 +44,7 @@
 
         .content {
             padding: 2rem;
+            padding-top: 4rem; /* Adjust padding to account for fixed navbar height */
         }
 
         .table {
@@ -56,9 +64,14 @@
                 padding: 1rem;
             }
 
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: #f2f2f2;
+        }
+
         .btn-primary {
             background-color: #007bff;
             border-color: #007bff;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
         }
 
             .btn-primary:hover {
@@ -69,6 +82,7 @@
         .btn-info {
             background-color: #17a2b8;
             border-color: #17a2b8;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
         }
 
             .btn-info:hover {
@@ -79,16 +93,30 @@
         .btn-danger {
             background-color: #dc3545;
             border-color: #dc3545;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
         }
 
             .btn-danger:hover {
                 background-color: #c82333;
                 border-color: #c82333;
             }
+
+        .btn-back-home {
+            margin-top: 1rem;
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #fff;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+            .btn-back-home:hover {
+                background-color: #0056b3;
+                border-color: #0056b3;
+            }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">Bar Rating</a>
         <div class="navbar-nav ml-auto">
             @if (ViewBag.role == "Admin")
@@ -134,6 +162,7 @@
                 </tbody>
             </table>
         </div>
+        <a href="@Url.Action("Index", "Home")" class="btn btn-back-home">Back to Home</a> <!-- Added Back to Home button -->
     </div>
 </body>
 </html>

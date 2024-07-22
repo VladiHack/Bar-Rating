@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vladimir Boychev\\Desktop\\IT Kariera практика\\Bar rating\\Bar rating.csproj": {}
+    "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Bar rating.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vladimir Boychev\\Desktop\\IT Kariera практика\\Bar rating\\Bar rating.csproj": {
+    "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Bar rating.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladimir Boychev\\Desktop\\IT Kariera практика\\Bar rating\\Bar rating.csproj",
+        "projectUniqueName": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Bar rating.csproj",
         "projectName": "Bar rating",
-        "projectPath": "C:\\Users\\Vladimir Boychev\\Desktop\\IT Kariera практика\\Bar rating\\Bar rating.csproj",
+        "projectPath": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Bar rating.csproj",
         "packagesPath": "C:\\Users\\Vladimir Boychev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladimir Boychev\\Desktop\\IT Kariera практика\\Bar rating\\obj\\",
+        "outputPath": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vladimir Boychev\\AppData\\Roaming\\NuGet\\NuGet.Config",

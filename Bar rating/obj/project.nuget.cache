@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J4zDshAs4E0=",
+  "dgSpecHash": "WU9CZC3Zjmk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vladimir Boychev\\Desktop\\IT Kariera практика\\Bar rating\\Bar rating.csproj",
+  "projectFilePath": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Bar rating.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vladimir Boychev\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Vladimir Boychev\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

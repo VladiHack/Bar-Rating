@@ -5,27 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bar Rating</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Montserrat', sans-serif;
-            background-color: #f8f9fa;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/premium-vector/bar-counter-with-stools-before-it-alcohol-cocktails-bottles-shelves-vector-illustration_81894-1714.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         }
 
         .navbar {
-            background-color: #343a40;
+            background-color: transparent;
             padding: 1rem 2rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         .navbar-brand {
             font-size: 1.5rem;
             font-weight: bold;
             color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .navbar-nav .nav-link {
             color: #fff;
             font-size: 1.1rem;
             margin-right: 1.5rem;
+            transition: color 0.3s ease;
         }
 
             .navbar-nav .nav-link:hover {
@@ -33,21 +44,19 @@
             }
 
         .hero {
-            background-image: url('https://img.freepik.com/premium-vector/bar-counter-with-stools-before-it-alcohol-cocktails-bottles-shelves-vector-illustration_81894-1714.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 500px;
+            height: 100vh;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            color: #fff;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         }
 
             .hero h1 {
                 font-size: 3rem;
                 font-weight: bold;
                 margin-bottom: 1rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
             }
 
             .hero p {
@@ -58,6 +67,8 @@
         .btn-primary {
             background-color: #007bff;
             border-color: #007bff;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+            margin-bottom: 1rem;
         }
 
             .btn-primary:hover {
@@ -66,14 +77,14 @@
             }
 
         .statistics {
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.8);
             padding: 2rem;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            position: absolute;
-            top: 20px;
-            left: 20px;
             font-size: 1.2rem;
+            width: 300px;
+            color: #333;
+            text-shadow: none;
         }
 
             .statistics p {
@@ -83,7 +94,6 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Bar Rating</a>
         <div class="navbar-nav ml-auto">
             @if (ViewBag.role == "Empty")
             {
