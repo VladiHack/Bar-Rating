@@ -1,0 +1,39 @@
+﻿@model Bar_rating.Models.Review
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4><span style="font-style: italic;">Review</span></h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BarId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BarId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReviewText)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReviewText)
+        </dd>
+    </dl>
+</div>
+<div>
+    @if (ViewBag.role == "Admin")
+    {
+        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+    }
+    <a class="btn btn-primary" asp-action="Index" asp-route-id="@ViewBag.restaurantId">Back to List</a>
+</div>

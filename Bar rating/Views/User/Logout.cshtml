@@ -1,0 +1,23 @@
+﻿@model Bar_rating.Models.LoginEntity
+@{
+    ViewData["Title"] = "Logout";
+}
+
+<h1>Logout</h1>
+
+<h4><span style="font-style: italic;">User</span></h4>
+<hr />
+<div>
+    <span style="font-style: italic;">Успешно излязохте от акаунта си!</span>
+</div>
+
+<div>
+    <a asp-controller="Home" asp-action="Index">Back to Home menu</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
