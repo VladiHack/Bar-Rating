@@ -22,8 +22,10 @@ namespace Bar_rating.Controllers
         {
             ViewBag.userId = UserIdSupplier.id;
             ViewBag.role = RoleSupplier.role;
-            return View(_context.Users.ToList());
+            var users = _context.Users.ToList();  // Fetching all users
+            return View(users);  // Passing the list to the view
         }
+
         public IActionResult Create()
         {
             ViewBag.userId = UserIdSupplier.id;
@@ -62,7 +64,14 @@ namespace Bar_rating.Controllers
             {
                 _context.Users.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if(UserIdSupplier.id==0)
+                {
+                   return RedirectToAction("Index", "Bar");
+                }
+                else
+                {
+                    return RedirectToAction("Index","User");
+                }
             }
             return View(user);
         }
@@ -92,6 +101,8 @@ namespace Bar_rating.Controllers
                     RoleSupplier.role = "User";
                 }
                 msg = "Успешно влизане! Вашата роля е "+RoleSupplier.role;
+
+                return RedirectToAction("Index", "Bar");
             }
             ViewBag.Message = msg;
             return View();

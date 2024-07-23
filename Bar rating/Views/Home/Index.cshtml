@@ -82,9 +82,9 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             font-size: 1.2rem;
-            width: 300px;
             color: #333;
             text-shadow: none;
+            margin-top: 2rem;
         }
 
             .statistics p {
@@ -116,17 +116,16 @@
                 <a class="btn btn-primary btn-lg" asp-area="" asp-controller="User" asp-action="Login">Log in</a>
                 <a class="btn btn-primary btn-lg" asp-area="" asp-controller="User" asp-action="Create">Create an account</a>
             }
+            @if (ViewBag.role == "Admin")
+            {
+                <div class="statistics mx-auto">
+                    <p class="lead">Statistics:</p>
+                    <p class="text-muted">Users: @ViewBag.UserCount</p>
+                    <p class="text-muted">Bars: @ViewBag.BarCount</p>
+                    <p class="text-muted">Reviews: @ViewBag.ReviewCount</p>
+                </div>
+            }
         </div>
     </div>
-
-    @if (ViewBag.role == "Admin")
-    {
-        <div class="statistics">
-            <p class="lead">Statistics:</p>
-            <p class="text-muted">Users: @ViewBag.UserCount</p>
-            <p class="text-muted">Bars: @ViewBag.BarCount</p>
-            <p class="text-muted">Reviews: @ViewBag.ReviewCount</p>
-        </div>
-    }
 </body>
 </html>

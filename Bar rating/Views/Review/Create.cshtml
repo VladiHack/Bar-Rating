@@ -1,41 +1,159 @@
 ﻿@model Bar_rating.Models.Review
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create Review";
 }
 
-<h1>Create</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Bar Rating</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f9fa;
+            margin-top: 60px; /* Space for the fixed navbar */
+        }
 
-<h4><span style="font-style: italic;">Review</span></h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        .navbar {
+            background-color: #343a40;
+            padding: 0.5rem 1rem;
+        }
 
-            <div class="form-group">
-                <label asp-for="ReviewText" class="control-label"><span style="font-style: italic;">Review Text</span></label>
-                <input asp-for="ReviewText" class="form-control" />
-                <span asp-validation-for="ReviewText" class="text-danger"></span>
+        .navbar-brand {
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: #007bff;
+            }
+
+        .container {
+            max-width: 800px;
+        }
+
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            padding: 2rem;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+
+        h1.display-4 {
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        h4.text-muted {
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #0056b3;
+            }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+                border-color: #545b62;
+            }
+
+        .form-group label {
+            font-weight: 700;
+            color: #333;
+        }
+
+        .form-control {
+            border-radius: 5px;
+            padding: 0.75rem;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Bar Rating</a>
+        <div class="navbar-nav ml-auto">
+            @if (ViewBag.role == "Empty")
+            {
+                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Login">Log in</a>
+                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Create">Create an account</a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            }
+            @if (ViewBag.role == "Admin" || ViewBag.role == "User")
+            {
+                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Logout">Log out</a>
+            }
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="display-4">Create Review</h1>
+                <h4 class="text-muted"><span style="font-style: italic;">Review</span></h4>
+                <hr class="my-4" />
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label asp-for="ReviewText" class="control-label"><span style="font-style: italic;">Review Text</span></label>
+                        <input asp-for="ReviewText" class="form-control" />
+                        <span asp-validation-for="ReviewText" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary btn-block" />
+                    </div>
+                </form>
+                <div>
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+                @if (ViewBag.Message != "")
+                {
+                    <div class="alert alert-info mt-3">
+                        @ViewBag.Message
+                    </div>
+                }
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
-</div>
-@if (ViewBag.Message != "")
-{
-    <div>
-        @ViewBag.Message
-    </div>
-}
-<div>
-    <a class="btn btn-primary" asp-action="Index" asp-route-id="@ViewBag.restaurantId">Back to List</a>
-</div>
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
     }
-}
-
+</body>
+</html>

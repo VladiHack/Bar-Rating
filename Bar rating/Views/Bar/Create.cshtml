@@ -3,43 +3,196 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            padding-top: 5rem; /* Space for the fixed navbar */
+        }
 
-<h4><span style="font-style: italic;">Bar</span></h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create" method="post" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"><span style="font-style: italic;">Name</span></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"><span style="font-style: italic;">Description</span></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="BarImageFile" class="control-label"><span style="font-style: italic;">Bar Image</span></label>
-                <input type="file" name="BarImageFile" class="form-control-file" />
-                <span asp-validation-for="BarImageFile" class="text-danger"></span>
-            </div>
+        .navbar {
+            background-color: transparent;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
 
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-size: 1.1rem;
+            margin-right: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: #007bff;
+            }
+
+        .container {
+            max-width: 800px; /* Increase the max-width of the container */
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+
+        h1.display-4 {
+            font-weight: bold;
+            margin-bottom: 2rem;
+        }
+
+        h4.text-muted {
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #0056b3;
+            }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+                border-color: #545b62;
+            }
+
+        .text-muted {
+            color: #6c757d !important;
+        }
+
+        .alert {
+            margin-top: 1rem;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-color: #ddd;
+        }
+
+        .form-group label {
+            font-style: italic;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .form-control {
+            border-radius: 5px;
+            padding: 0.75rem;
+            font-size: 1rem;
+        }
+
+        .form-control-file {
+            border-radius: 5px;
+            padding: 0.75rem;
+            font-size: 1rem;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="navbar-nav ml-auto">
+            @if (ViewBag.role == "Empty")
+            {
+                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Login">Log in</a>
+                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Create">Create an account</a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            }
+            @if (ViewBag.role == "Admin" || ViewBag.role == "User")
+            {
+                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Logout">Log out</a>
+            }
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <!-- Adjusted column size to make the form wider -->
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="display-4">Create</h1>
+                        <h4 class="text-muted"><span style="font-style: italic;">Bar</span></h4>
+                        <hr class="my-4" />
+                        <form asp-action="Create" method="post" enctype="multipart/form-data">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label asp-for="Name" class="control-label"><span style="font-style: italic;">Name</span></label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description" class="control-label"><span style="font-style: italic;">Description</span></label>
+                                <input asp-for="Description" class="form-control" />
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="BarImageFile" class="control-label"><span style="font-style: italic;">Bar Image</span></label>
+                                <input type="file" name="BarImageFile" class="form-control-file" />
+                                <span asp-validation-for="BarImageFile" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="submit" value="Create" class="btn btn-primary btn-block" />
+                            </div>
+                        </form>
+                        <div>
+                            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </form>
+        </div>
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
     }
-}
+</body>
+</html>
