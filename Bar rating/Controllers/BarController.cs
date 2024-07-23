@@ -7,25 +7,29 @@ using System.Resources;
 using Bar_rating.Models;
 using Bar_rating.Validator;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Bar_rating.Suppliers;
+using Bar_rating.Services.Bars;
+using Bar_rating.Services.Reviews;
 
 namespace Bar_rating.Controllers
 {
     public class BarController:Controller
     {
         private readonly BarRatingDBContext _context;
+        private readonly IBarsService _barsService;
 
-        public BarController(BarRatingDBContext context)
+
+        public BarController(BarRatingDBContext context, IBarsService barsService, IReviewsService reviewsService)
         {
             _context=context;
+            _barsService=barsService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-      
-
             ViewBag.userId = UserIdSupplier.id;
             ViewBag.role = RoleSupplier.role;
-            return View(_context.Bars.ToList());
+            return View(await _barsService.GetBarsAsync());
         }
         public IActionResult Create()
         {
@@ -37,7 +41,9 @@ namespace Bar_rating.Controllers
         public async Task<IActionResult> Create(Bar bar)
         {
             string msg = "";
-            List<Bar> bars = _context.Bars.ToList();
+
+            List<Bar> bars = (List<Bar>)await _barsService.GetBarsAsync();
+
             if (bars.Count == 0)
             {
                 bar.Id = 1;
@@ -46,22 +52,14 @@ namespace Bar_rating.Controllers
             {
                 bar.Id = bars[bars.Count() - 1].Id + 1;
             }
-            if (bar.BarImageFile != null && bar.BarImageFile.Length > 0)
-            {
-                using (var memoryStream = new MemoryStream())
-                {
-                    await bar.BarImageFile.CopyToAsync(memoryStream);
-                    bar.BarImage = memoryStream.ToArray();
-                }
-            }
-            
-            msg = BarValidator.ReturnErrorsCreate(bars, bar);
+
+         
+            msg = await BarValidator.ReturnErrorsCreateAsync(bars, bar);
             ViewBag.Message = msg;
 
             if (msg == "")
             {
-                _context.Bars.Add(bar);
-                await _context.SaveChangesAsync();
+                await _barsService.CreateBarAsync(bar);
                 return RedirectToAction(nameof(Index));
             }
             return View(bar);
@@ -71,32 +69,22 @@ namespace Bar_rating.Controllers
         public IActionResult Edit(int id)
         {
             ViewBag.userId = UserIdSupplier.id;
-            var users = _context.Bars.AsNoTracking().FirstOrDefault(y => y.Id == id);
-            return View(users);
+            var bars = _context.Bars.AsNoTracking().FirstOrDefault(y => y.Id == id);
+            return View(bars);
         }
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             ViewBag.userId = UserIdSupplier.id;
-            var users = _context.Bars.FirstOrDefault(x => x.Id == id);
-            return View(users);
+            var bar =await _barsService.GetBarByIdAsync(id);
+            return View(bar);
         }
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            //Изтриваме всички ревюта за този бар
-            var bar = await _context.Bars.FindAsync(id);
-            if (bar != null)
+            if (await _barsService.ExistsById(id))
             {
-                foreach (var review in _context.Reviews.ToList())
-                {
-                    if (bar.Id == review.BarId)
-                    {
-                        _context.Remove(review);
-                    }
-                }
-                _context.Bars.Remove(bar);
-                await _context.SaveChangesAsync();
+               await _barsService.DeleteBarByIdAsync(id);
             }
 
             return RedirectToAction(nameof(Index));
@@ -110,35 +98,26 @@ namespace Bar_rating.Controllers
             List<Bar> bars = _context.Bars.AsNoTracking().ToList();
 
             string msg = "";
-            msg = BarValidator.ReturnErrorsEdit(bars, oldBar, oldBar.Id);
+            msg = await BarValidator.ReturnErrorsEditAsync(bars, oldBar, oldBar.Id);
             ViewBag.Message = msg;
-            if (bar.BarImageFile != null && bar.BarImageFile.Length > 0)
-            {
-                using (var memoryStream = new MemoryStream())
-                {
-                    await bar.BarImageFile.CopyToAsync(memoryStream);
-                    bar.BarImage = memoryStream.ToArray();
-                }
-            }
-            else
-            {
-                bar.BarImage = oldBar.BarImage;
-            }
+
+            await BarValidator.UpdateImage(oldBar, bar);
+          
+
             if (msg == "")
             {
                 int id = bar.Id;
-                _context.Update(bar);
-                await _context.SaveChangesAsync();
+                await _barsService.UpdateBar(bar);
             }
          
             return RedirectToAction(nameof(Index));
 
         }
 
-        public IActionResult Details(int id)
+        public async Task<IActionResult> Details(int id)
         {
             ViewBag.userId = UserIdSupplier.id;
-            var bar = _context.Bars.FirstOrDefault(y => y.Id == id);
+            var bar = await _barsService.GetBarByIdAsync(id);
             return View(bar);
         }
 

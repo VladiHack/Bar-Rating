@@ -7,19 +7,23 @@ using Microsoft.EntityFrameworkCore;
 using System.Resources;
 using Bar_rating.Models;
 using Bar_rating.Validator;
+using Bar_rating.Suppliers;
+using Bar_rating.Services.Reviews;
 
 namespace Bar_rating.Controllers
 {
     public class ReviewController:Controller
     {
         private readonly BarRatingDBContext _context;
+        private readonly IReviewsService _reviewService;
 
-        public ReviewController(BarRatingDBContext context)
+        public ReviewController(BarRatingDBContext context, IReviewsService reviewService)
         {
             _context=context;
+            _reviewService=reviewService;
         }
 
-        public IActionResult Index(int id)
+        public async Task<IActionResult> Index(int id)
         {
             ViewBag.role = RoleSupplier.role;
             ViewBag.id = UserIdSupplier.id;
@@ -39,7 +43,7 @@ namespace Bar_rating.Controllers
             {
                 if(RoleSupplier.role=="Admin")
                 {
-                    return View(_context.Reviews.ToList());
+                    return View(await _reviewService.GetReviewsAsync());
                 }
                 else
                 {
@@ -65,7 +69,7 @@ namespace Bar_rating.Controllers
         {
             review.BarId = BarIdSupplier.Id;
             review.UserId= UserIdSupplier.id;
-            List<Review> reviews = _context.Reviews.ToList();
+            List<Review> reviews = (List<Review>)await _reviewService.GetReviewsAsync();
             
             if(reviews.Count==0)
             {
@@ -77,8 +81,9 @@ namespace Bar_rating.Controllers
             }
 
         
-                _context.Reviews.Add(review);
-                await _context.SaveChangesAsync();
+            await _reviewService.CreateReviewAsync(review);
+
+            //Chance for error
             return RedirectToAction("Index", new { id = review.BarId });
         }
 
@@ -91,23 +96,22 @@ namespace Bar_rating.Controllers
             var reviews =_context.Reviews.AsNoTracking().FirstOrDefault(y => y.Id == id);
             return View(reviews);
         }
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             ViewBag.userId = UserIdSupplier.id;
             ViewBag.restaurantId = BarIdSupplier.Id;
 
-            var reviews = _context.Reviews.FirstOrDefault(x => x.Id == id);
+            var reviews = await _reviewService.GetReviewByIdAsync(id);
             return View(reviews);
         }
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var review = await _context.Reviews.FindAsync(id);
+            var review = await _reviewService.GetReviewByIdAsync(id);
             if (review != null)
             {
-                _context.Reviews.Remove(review);
-                await _context.SaveChangesAsync();
+                await _reviewService.DeleteReviewByIdAsync(id);
             }
 
             return RedirectToAction("Index", new { id = review.BarId });
@@ -121,20 +125,20 @@ namespace Bar_rating.Controllers
             
                review.UserId=UserIdSupplier.id;
                 int id = review.Id;
-                _context.Update(review);
-                await _context.SaveChangesAsync();
+
+            await _reviewService.UpdateReviewAsync(review);
 
 
             return RedirectToAction("Index", new { id = review.BarId });
 
         }
 
-        public  IActionResult Details(int id)
+        public  async Task<IActionResult> Details(int id)
         {
             ViewBag.userId = UserIdSupplier.id;
             ViewBag.barId = BarIdSupplier.Id;
 
-            var review = _context.Reviews.FirstOrDefault(y => y.Id == id);
+            var review = await _reviewService.GetReviewByIdAsync(id);
             return View(review);
         }
       

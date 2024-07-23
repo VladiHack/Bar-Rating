@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using System.Resources;
 using Bar_rating.Models;
 using Bar_rating.Validator;
+using Bar_rating.Suppliers;
+using Bar_rating.Entities;
 
 namespace Bar_rating.Controllers
 {

@@ -1,7 +1,7 @@
 ﻿using Bar_rating.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using Bar_rating.Models;
+using Bar_rating.Suppliers;
 
 namespace Bar_rating.Controllers
 {

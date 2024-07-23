@@ -1,4 +1,7 @@
 using Bar_rating.Models;
+using Bar_rating.Services.Bars;
+using Bar_rating.Services.Reviews;
+using Bar_rating.Services.Users;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<BarRatingDBContext>();
+
+builder.Services.AddTransient<IUsersService, UsersService>();
+builder.Services.AddTransient<IBarsService, BarsService>();
+builder.Services.AddTransient<IReviewsService, ReviewsService>();
 
 var app = builder.Build();
 

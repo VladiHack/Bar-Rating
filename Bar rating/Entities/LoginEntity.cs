@@ -1,4 +1,4 @@
-﻿namespace Bar_rating.Models
+﻿namespace Bar_rating.Entities
 {
     public class LoginEntity
     {
