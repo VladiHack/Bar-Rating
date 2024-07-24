@@ -37,18 +37,15 @@ namespace Bar_rating.Controllers
             
             if(BarIdSupplier.Id!=0)
             {
-                return View(_context.Reviews.Where(p => p.BarId == BarIdSupplier.Id).ToList());
+                List<Review> reviews= (List<Review>)await _reviewService.GetReviewsAsync();
+                reviews = reviews.Where(b => b.BarId == BarIdSupplier.Id).ToList();
+
+
+                return View(reviews);
             }
             else
             {
-                if(RoleSupplier.role=="Admin")
-                {
-                    return View(await _reviewService.GetReviewsAsync());
-                }
-                else
-                {
-                    return View(_context.Reviews.Where(p => p.UserId == UserIdSupplier.id));
-                }
+                  return View(await _reviewService.GetReviewsAsync());
             }
 
 

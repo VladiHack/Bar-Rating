@@ -3,6 +3,82 @@
   "WorkspaceRootPath": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\services\\reviews\\reviewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:services\\reviews\\reviewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\services\\reviews\\ireviewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:services\\reviews\\ireviewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\suppliers\\rolesupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:suppliers\\rolesupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\models\\bar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:models\\bar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\review\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\review\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\bar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\bar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\entities\\loginentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:entities\\loginentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\services\\users\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:services\\users\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\services\\users\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:services\\users\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\validator\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:validator\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\suppliers\\baridsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:suppliers\\baridsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\services\\bars\\barsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:services\\bars\\barsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,56 +99,16 @@
       "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:services\\bars\\ibarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\services\\reviews\\reviewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:services\\reviews\\reviewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\services\\reviews\\ireviewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:services\\reviews\\ireviewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\services\\users\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:services\\users\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\validator\\barvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:validator\\barvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\suppliers\\rolesupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:suppliers\\rolesupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\services\\users\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:services\\users\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\suppliers\\useridsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:suppliers\\useridsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\models\\bar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:models\\bar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\bar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\bar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -83,16 +119,8 @@
       "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\review\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\review\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\review\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\review\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\bar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -131,16 +159,8 @@
       "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\bar\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\user\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\user\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\migrations\\barratingdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -149,14 +169,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\migrations\\20240722115145_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:migrations\\20240722115145_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\suppliers\\baridsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:suppliers\\baridsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|c:\\users\\vladimir boychev\\desktop\\bar rating\\bar-rating\\bar rating\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01153E62-FC75-4913-AD09-0985319B0BFE}|Bar rating.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -166,7 +178,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,41 +190,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAcwJQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T08:38:14.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Review\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Review\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Review\\Index.cshtml",
+              "RelativeToolTip": "Views\\Review\\Index.cshtml",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAgwIYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T14:58:26.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IUsersService.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Users\\IUsersService.cs",
-              "RelativeDocumentMoniker": "Services\\Users\\IUsersService.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Users\\IUsersService.cs",
-              "RelativeToolTip": "Services\\Users\\IUsersService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
+              "Title": "RoleSupplier.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\RoleSupplier.cs",
+              "RelativeDocumentMoniker": "Suppliers\\RoleSupplier.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\RoleSupplier.cs",
+              "RelativeToolTip": "Suppliers\\RoleSupplier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T12:21:15.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T09:39:23.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BarController.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\BarController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BarController.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\BarController.cs",
-              "RelativeToolTip": "Controllers\\BarController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Controllers\\ReviewController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T14:52:10.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReviewsService.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Reviews\\ReviewsService.cs",
-              "RelativeDocumentMoniker": "Services\\Reviews\\ReviewsService.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Reviews\\ReviewsService.cs",
-              "RelativeToolTip": "Services\\Reviews\\ReviewsService.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T12:27:25.776Z",
+              "WhenOpened": "2024-07-07T13:27:08.676Z",
               "EditorCaption": ""
             },
             {
@@ -225,229 +248,86 @@
               "RelativeToolTip": "Services\\Reviews\\IReviewsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T12:26:17.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T12:26:17.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReviewsService.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Reviews\\ReviewsService.cs",
+              "RelativeDocumentMoniker": "Services\\Reviews\\ReviewsService.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Reviews\\ReviewsService.cs",
+              "RelativeToolTip": "Services\\Reviews\\ReviewsService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwCsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T12:27:25.776Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IBarsService.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Bars\\IBarsService.cs",
-              "RelativeDocumentMoniker": "Services\\Bars\\IBarsService.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Bars\\IBarsService.cs",
-              "RelativeToolTip": "Services\\Bars\\IBarsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T12:11:56.528Z",
+              "WhenOpened": "2024-07-07T12:17:13.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BarsService.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Bars\\BarsService.cs",
-              "RelativeDocumentMoniker": "Services\\Bars\\BarsService.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Bars\\BarsService.cs",
-              "RelativeToolTip": "Services\\Bars\\BarsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAABXAAAA",
+              "DocumentIndex": 1,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Review.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\Review.cs",
+              "RelativeToolTip": "Models\\Review.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwAwAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T12:13:01.251Z",
+              "WhenOpened": "2024-07-24T06:00:04.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BarRatingDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\BarRatingDBContext.cs",
-              "RelativeDocumentMoniker": "Models\\BarRatingDBContext.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\BarRatingDBContext.cs",
-              "RelativeToolTip": "Models\\BarRatingDBContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T06:28:16.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:21:37.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BarValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Validator\\BarValidator.cs",
-              "RelativeDocumentMoniker": "Validator\\BarValidator.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Validator\\BarValidator.cs",
-              "RelativeToolTip": "Validator\\BarValidator.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAkwC8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T15:00:01.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\ReviewController.cs",
-              "RelativeToolTip": "Controllers\\ReviewController.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAkwEUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T13:27:08.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RoleSupplier.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\RoleSupplier.cs",
-              "RelativeDocumentMoniker": "Suppliers\\RoleSupplier.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\RoleSupplier.cs",
-              "RelativeToolTip": "Suppliers\\RoleSupplier.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T09:39:23.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAkwLMAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAJoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T11:22:10.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:21:49.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UsersService.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Users\\UsersService.cs",
-              "RelativeDocumentMoniker": "Services\\Users\\UsersService.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Users\\UsersService.cs",
-              "RelativeToolTip": "Services\\Users\\UsersService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T12:22:06.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Bar\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Bar\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Bar\\Index.cshtml",
-              "RelativeToolTip": "Views\\Bar\\Index.cshtml",
-              "ViewState": "AQIAADoAAAAAAAAAAAAYwFgAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T13:28:56.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T08:50:51.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Review\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Review\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Review\\Create.cshtml",
-              "RelativeToolTip": "Views\\Review\\Create.cshtml",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAkwIsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-23T05:19:16.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "Views\\User\\Index.cshtml",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAkwJcAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T08:38:14.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAUwGMAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T15:19:01.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "Bar.cs",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\Bar.cs",
               "RelativeDocumentMoniker": "Models\\Bar.cs",
               "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\Bar.cs",
               "RelativeToolTip": "Models\\Bar.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAApAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T14:57:05.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T14:57:05.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserIdSupplier.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\UserIdSupplier.cs",
-              "RelativeDocumentMoniker": "Suppliers\\UserIdSupplier.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\UserIdSupplier.cs",
-              "RelativeToolTip": "Suppliers\\UserIdSupplier.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T09:39:25.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Review\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Review\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Review\\Index.cshtml",
-              "RelativeToolTip": "Views\\Review\\Index.cshtml",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAIwIAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T14:58:26.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 11,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Review\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Review\\Edit.cshtml",
@@ -459,7 +339,211 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Bar\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bar\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Bar\\Index.cshtml",
+              "RelativeToolTip": "Views\\Bar\\Index.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAYwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T13:28:56.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Users\\IUsersService.cs",
+              "RelativeDocumentMoniker": "Services\\Users\\IUsersService.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Users\\IUsersService.cs",
+              "RelativeToolTip": "Services\\Users\\IUsersService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T12:21:15.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Users\\UsersService.cs",
+              "RelativeDocumentMoniker": "Services\\Users\\UsersService.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Users\\UsersService.cs",
+              "RelativeToolTip": "Services\\Users\\UsersService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T12:22:06.96Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "BarIdSupplier.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\BarIdSupplier.cs",
+              "RelativeDocumentMoniker": "Suppliers\\BarIdSupplier.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\BarIdSupplier.cs",
+              "RelativeToolTip": "Suppliers\\BarIdSupplier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T06:03:46.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Entities\\LoginEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\LoginEntity.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Entities\\LoginEntity.cs",
+              "RelativeToolTip": "Entities\\LoginEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:48:01.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T13:21:37.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Validator\\UserValidator.cs",
+              "RelativeDocumentMoniker": "Validator\\UserValidator.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Validator\\UserValidator.cs",
+              "RelativeToolTip": "Validator\\UserValidator.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAkwEYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:49:13.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Views\\User\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAALgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T08:43:13.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BarRatingDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\BarRatingDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\BarRatingDBContext.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\BarRatingDBContext.cs",
+              "RelativeToolTip": "Models\\BarRatingDBContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T06:28:16.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BarsService.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Bars\\BarsService.cs",
+              "RelativeDocumentMoniker": "Services\\Bars\\BarsService.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Bars\\BarsService.cs",
+              "RelativeToolTip": "Services\\Bars\\BarsService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T12:13:01.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IBarsService.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Bars\\IBarsService.cs",
+              "RelativeDocumentMoniker": "Services\\Bars\\IBarsService.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Services\\Bars\\IBarsService.cs",
+              "RelativeToolTip": "Services\\Bars\\IBarsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T12:11:56.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BarController.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\BarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BarController.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Controllers\\BarController.cs",
+              "RelativeToolTip": "Controllers\\BarController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T14:52:10.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BarValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Validator\\BarValidator.cs",
+              "RelativeDocumentMoniker": "Validator\\BarValidator.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Validator\\BarValidator.cs",
+              "RelativeToolTip": "Validator\\BarValidator.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T15:00:01.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T13:21:49.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Review\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Review\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Review\\Create.cshtml",
+              "RelativeToolTip": "Views\\Review\\Create.cshtml",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAkwIsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T05:19:16.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAUwGMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T15:19:01.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserIdSupplier.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\UserIdSupplier.cs",
+              "RelativeDocumentMoniker": "Suppliers\\UserIdSupplier.cs",
+              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\UserIdSupplier.cs",
+              "RelativeToolTip": "Suppliers\\UserIdSupplier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T09:39:25.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -471,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Review\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Review\\Delete.cshtml",
@@ -483,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Bar\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Bar\\Details.cshtml",
@@ -495,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Delete.cshtml",
@@ -507,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Bar\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Bar\\Edit.cshtml",
@@ -519,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Review\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Review\\Details.cshtml",
@@ -531,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Bar\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Bar\\Create.cshtml",
@@ -543,20 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "BarIdSupplier.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\BarIdSupplier.cs",
-              "RelativeDocumentMoniker": "Suppliers\\BarIdSupplier.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Suppliers\\BarIdSupplier.cs",
-              "RelativeToolTip": "Suppliers\\BarIdSupplier.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T06:03:46.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "20240722115145_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Migrations\\20240722115145_Initial.cs",
               "RelativeDocumentMoniker": "Migrations\\20240722115145_Initial.cs",
@@ -568,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "BarRatingDBContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Migrations\\BarRatingDBContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\BarRatingDBContextModelSnapshot.cs",
@@ -580,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Logout.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Logout.cshtml",
@@ -592,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\Bar\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Bar\\Delete.cshtml",
@@ -604,44 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "Views\\User\\Login.cshtml",
-              "ViewState": "AQIAAFYAAAAAAAAAAAApwGEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T08:50:51.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T12:17:13.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Create.cshtml",
-              "RelativeToolTip": "Views\\User\\Create.cshtml",
-              "ViewState": "AQIAAJoAAAAAAAAAAAAUwLgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T08:43:13.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Edit.cshtml",
@@ -653,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Vladimir Boychev\\Desktop\\Bar rating\\Bar-Rating\\Bar rating\\Views\\User\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Details.cshtml",

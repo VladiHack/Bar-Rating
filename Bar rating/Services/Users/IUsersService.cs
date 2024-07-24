@@ -9,5 +9,6 @@ namespace Bar_rating.Services.Users
         Task<User> GetUserByIdAsync(int id);
         Task CreateUserAsync(User user);
         Task DeleteUserByIdAsync(int id);
+        Task UpdateUser(User user);
     }
 }

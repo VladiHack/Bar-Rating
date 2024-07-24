@@ -35,8 +35,13 @@ namespace Bar_rating.Services.Reviews
         public async Task<Review> GetReviewByIdAsync(int id) => _context.Reviews.FirstOrDefault(a => a.Id == id);
 
 
-        public async Task<IEnumerable<Review>> GetReviewsAsync() => await _context.Reviews.ToListAsync();
-
+        public async Task<IEnumerable<Review>> GetReviewsAsync()
+        {
+            return await _context.Reviews
+                .Include(r => r.User)
+                .Include(r => r.Bar)
+                .ToListAsync();
+        }
         public async Task UpdateReviewAsync(Review review)
         {
             _context.Update(review);

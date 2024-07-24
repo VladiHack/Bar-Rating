@@ -46,5 +46,29 @@ namespace Bar_rating.Validator
             }
             return msg;
         }
+        public static void AddIdToUser(List<User> users,User user)
+        {
+            if (users.Count == 0)
+            {
+                user.Id = 1;
+            }
+            else
+            {
+                user.Id = users[users.Count() - 1].Id + 1;
+            }
+        }
+
+        public static void AssignAdminRoleIfUserListIsEmpty(List<User> users,User user)
+        {
+
+            if (users.Count == 0)
+            {
+                user.IsAdmin = true;
+            }
+            else
+            {
+                user.IsAdmin = false;
+            }
+        }
     }
 }

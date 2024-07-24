@@ -23,7 +23,11 @@ namespace Bar_rating.Services.Users
         {
             var userToDelete = await GetUserByIdAsync(id);
 
-
+            List<Review> reviews = _context.Reviews.Where(r => r.UserId == id).ToList();
+            foreach (Review review in reviews)
+            {
+                _context.Reviews.Remove(review);
+            }
 
             _context.Users.Remove(userToDelete);
             await _context.SaveChangesAsync();
@@ -36,5 +40,11 @@ namespace Bar_rating.Services.Users
 
 
         public async Task<IEnumerable<User>> GetUsersAsync() => await _context.Users.ToListAsync();
+
+        public async Task UpdateUser(User user)
+        {
+            _context.Update(user);
+            await _context.SaveChangesAsync();
+        }
     }
 }

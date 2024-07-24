@@ -130,9 +130,9 @@
         <table id="ReviewTable" class="table table-striped">
             <thead class="thead-dark">
                 <tr>
-                    <th><span class="font-italic">User Id</span></th>
-                    <th><span class="font-italic">Bar Id</span></th>
-                    <th><span class="font-italic">Review Text</span></th>
+                    <th><span class="font-italic">User </span></th>
+                    <th><span class="font-italic">Bar </span></th>
+                    <th><span class="font-italic">Review </span></th>
                     <th></th>
                 </tr>
             </thead>
@@ -142,8 +142,8 @@
                     @if (ViewBag.Id == item.UserId || ViewBag.role == "Admin")
                     {
                         <tr>
-                            <td><span class="font-italic">@Html.DisplayFor(modelItem => item.UserId)</span></td>
-                            <td><span class="font-italic">@Html.DisplayFor(modelItem => item.BarId)</span></td>
+                            <td><span class="font-italic">@Html.DisplayFor(modelItem => item.User.Username)</span></td>
+                            <td><span class="font-italic">@Html.DisplayFor(modelItem => item.Bar.Name)</span></td>
                             <td><span class="font-italic">@Html.DisplayFor(modelItem => item.ReviewText)</span></td>
                             <td>
                                 <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@item.Id"><span class="font-italic">Edit</span></a>
@@ -155,8 +155,8 @@
                     @if (ViewBag.Id != item.UserId && ViewBag.role == "User")
                     {
                         <tr>
-                            <td><span class="font-italic">@Html.DisplayFor(modelItem => item.UserId)</span></td>
-                            <td><span class="font-italic">@Html.DisplayFor(modelItem => item.BarId)</span></td>
+                            <td><span class="font-italic">@Html.DisplayFor(modelItem => item.User.Username)</span></td>
+                            <td><span class="font-italic">@Html.DisplayFor(modelItem => item.Bar.Name)</span></td>
                             <td><span class="font-italic">@Html.DisplayFor(modelItem => item.ReviewText)</span></td>
                             <td>
                                 <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.Id"><span class="font-italic">Details</span></a>
